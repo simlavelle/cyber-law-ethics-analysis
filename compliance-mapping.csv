@@ -1,0 +1,7 @@
+failure,law_or_standard_violated,preventive_control,control_family
+Dummy accounts created and used to access data,CFAA / NIST 800-53 AC-2,Formal account provisioning with approval and periodic review,Access Control
+No separation of duties between request and approval,SOX / NIST 800-53 AC-5,Enforce separation of duties in role design,Access Control
+Unauthorized access to financial documents,CFAA / SOX,Least privilege + data classification + access logging,Access Control / Audit
+Unapproved use of Metasploit on internal hosts,ECPA / NIST 800-53 CM-7,Application whitelisting + change management,Configuration Management
+Network scanning of other units without authorization,ECPA / NIST 800-53 SI-4,Network monitoring + rules-of-engagement policy for testing,System Monitoring
+Logs existed but were not acted upon,NIST 800-53 AU-6,Regular log review and alerting on anomalies,Audit and Accountability
